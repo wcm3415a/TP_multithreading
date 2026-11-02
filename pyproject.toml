@@ -7,7 +7,9 @@ authors = [
     { name = "wcm3415a", email = "imran.wachill@utoulouse.fr" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "numpy>=2.5.4",
+]
 
 [project.scripts]
 tp-multithreading = "tp_multithreading:main"
