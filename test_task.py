@@ -9,7 +9,10 @@ class TestTask(unittest.TestCase):
     def test_resolution(self):
         t = Task()
 
-        # On remplace les majuscules par des minuscules :
+        # On lance le calcul
+        t.work()
+
+        # On vérifie le résultat
         assert_allclose(t.a @ t.x, t.b)
 
 
